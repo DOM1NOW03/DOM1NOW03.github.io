@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAKEB s.r.o. - Zateplování, fasády Lifebrick, stavby na klíč | Dotace až 950k</title>
+    <meta name="description" content="Stavební firma GAKEB s.r.o. - zateplování, fasády Lifebrick, Nova Brick, stavby na klíč. Vyřizujeme dotace až 950 000 Kč. Oprav dům po babičce.">
+    <meta name="keywords" content="zateplení, fasáda Lifebrick, stavby na klíč, dotace, Nova Brick, GAKEB, oprav dům po babičce">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">GAKEB s.r.o.</div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Zpět nahoru">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <i class="fas fa-home nav__icon"></i>
+                <span class="nav__title">GAKEB s.r.o.</span>
+            </div>
+            
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#home" class="nav__link">Domů</a></li>
+                <li><a href="#about" class="nav__link">O nás</a></li>
+                <li><a href="#services" class="nav__link">Služby</a></li>
+                <li><a href="#references" class="nav__link">Reference</a></li>
+                <li><a href="#faq" class="nav__link">FAQ</a></li>
+                <li><a href="#subsidies" class="nav__link">Dotace</a></li>
+                <li><a href="#contact" class="nav__link">Kontakt</a></li>
+            </ul>
+            
+            <div class="nav__actions">
+                <a href="tel:+420775071420" class="btn btn--primary nav__phone">
+                    <i class="fas fa-phone"></i>
+                    +420 775 071 420
+                </a>
+                <button class="nav__toggle" id="navToggle">
+                    <span class="nav__toggle-bar"></span>
+                    <span class="nav__toggle-bar"></span>
+                    <span class="nav__toggle-bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Slider Section -->
+    <section id="home" class="hero-slider">
+        <div class="slider-container" id="sliderContainer">
+            <!-- Slide 1: Zateplování -->
+            <div class="slide active" data-slide="0">
+                <div class="slide-bg" style="background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gemini_images/21b9ab50-6889-41ad-9ba9-6fcdcc21e446.png')"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="slide-text">
+                            <h1 class="slide-title">Zateplování budov</h1>
+                            <p class="slide-subtitle">Snižte náklady na vytápění až o 50%</p>
+                            <p class="slide-description">Profesionální zateplení s dotací až 950 000 Kč</p>
+                            <a href="#contact" class="btn btn--primary btn--lg slide-cta">
+                                <span>Nezávazná poptávka</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Lifebrick fasády -->
+            <div class="slide" data-slide="1">
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop')"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="slide-text">
+                            <h1 class="slide-title">Lifebrick fasády</h1>
+                            <p class="slide-subtitle">Moderní provětrávané fasády</p>
+                            <p class="slide-description">Pro zdravé bydlení bez plísní a vlhkosti</p>
+                            <a href="#services" class="btn btn--primary btn--lg slide-cta">
+                                <span>Zjistit více</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Oprav dům po babičce -->
+            <div class="slide" data-slide="2">
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&h=800&fit=crop')"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="slide-text">
+                            <h1 class="slide-title">Oprav dům po babičce</h1>
+                            <p class="slide-subtitle">Kompletní rekonstrukce</p>
+                            <p class="slide-description">S dotačním programem až 950 000 Kč zdarma</p>
+                            <a href="#subsidies" class="btn btn--primary btn--lg slide-cta">
+                                <span>Vyřídit dotaci</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Stavby na klíč -->
+            <div class="slide" data-slide="3">
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=800&fit=crop')"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="slide-text">
+                            <h1 class="slide-title">Stavby na klíč</h1>
+                            <p class="slide-subtitle">Vše pod jednou střechou</p>
+                            <p class="slide-description">Od projektu po kolaudaci s garancí kvality</p>
+                            <a href="#contact" class="btn btn--primary btn--lg slide-cta">
+                                <span>Kontaktujte nás</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+            <button class="slider-btn slider-btn--prev" id="prevSlide" aria-label="Předchozí slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn slider-btn--next" id="nextSlide" aria-label="Další slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Slider Dots -->
+        <div class="slider-dots" id="sliderDots">
+            <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+            <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+            <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+            <button class="dot" data-slide="3" aria-label="Slide 4"></button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="slider-progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item scroll-animate" data-number="500" data-suffix="+">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Spokojených klientů</div>
+                </div>
+                <div class="stat-item scroll-animate" data-number="15" data-suffix="">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Let zkušeností</div>
+                </div>
+                <div class="stat-item scroll-animate" data-number="950" data-suffix="">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Tis. Kč dotace</div>
+                </div>
+                <div class="stat-item scroll-animate" data-number="98" data-suffix="%">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">% spokojenost</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header scroll-animate">
+                <h2 class="section-title">Naše služby</h2>
+                <p class="section-subtitle">Komplexní stavební práce s důrazem na kvalitu a spokojenost klientů</p>
+            </div>
+            
+            <div class="services__grid">
+                <div class="service-card scroll-animate" data-tilt>
+                    <div class="service-card__icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="service-card__title">Zateplování budov</h3>
+                    <p class="service-card__description">
+                        Kontaktní zateplovací systémy EPS a minerální vata. Snížíme vaše náklady na vytápění až o 50%.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature-tag">EPS systémy</span>
+                        <span class="feature-tag">Minerální vata</span>
+                        <span class="feature-tag">Weber systémy</span>
+                        <span class="feature-tag">Dotace až 950k</span>
+                    </div>
+                </div>
+                
+                <div class="service-card scroll-animate" data-tilt>
+                    <div class="service-card__icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-card__title">Provětrávané fasády</h3>
+                    <p class="service-card__description">
+                        Lifebrick, Nova Brick a chytré fasády. Zdravé bydlení bez plísní s moderním vzhledem.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature-tag">Lifebrick Standard</span>
+                        <span class="feature-tag">Nova Brick</span>
+                        <span class="feature-tag">Větrané fasády</span>
+                        <span class="feature-tag">Chytré systémy</span>
+                    </div>
+                </div>
+                
+                <div class="service-card scroll-animate" data-tilt>
+                    <div class="service-card__icon">
+                        <i class="fas fa-window-maximize"></i>
+                    </div>
+                    <h3 class="service-card__title">Montáž parapetů</h3>
+                    <p class="service-card__description">
+                        Venkovní i vnitřní parapety ze všech materiálů. Precizní provedení s materiálem v ceně.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature-tag">Hliníkové</span>
+                        <span class="feature-tag">Kamenné</span>
+                        <span class="feature-tag">Venkovní/vnitřní</span>
+                        <span class="feature-tag">Všechny rozměry</span>
+                    </div>
+                </div>
+                
+                <div class="service-card scroll-animate" data-tilt>
+                    <div class="service-card__icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3 class="service-card__title">Stavby na klíč</h3>
+                    <p class="service-card__description">
+                        Kompletní výstavba rodinných domů a rekonstrukce od projektu po kolaudaci.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature-tag">Rodinné domy</span>
+                        <span class="feature-tag">Rekonstrukce</span>
+                        <span class="feature-tag">Projekty</span>
+                        <span class="feature-tag">Kolaudace</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text scroll-animate">
+                    <h2 class="about__title">O naší firmě</h2>
+                    <p class="about__description">
+                        Jsme stavební rodinná společnost s dlouholetou praxí se sídlem v Miřejovicích. Specializujeme se na strojní aplikaci stavebních materiálů a komplexní stavební práce. Jsme plátci DPH a poskytujeme materiál i práci.
+                    </p>
+                    
+                    <div class="about__features">
+                        <div class="feature scroll-animate">
+                            <i class="fas fa-certificate feature__icon"></i>
+                            <div>
+                                <h4>Certifikované práce</h4>
+                                <p>Všechny naše práce provádíme podle platných norem a s příslušnými certifikáty.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature scroll-animate">
+                            <i class="fas fa-clock feature__icon"></i>
+                            <div>
+                                <h4>Dlouholeté zkušenosti</h4>
+                                <p>Máme za sebou stovky úspěšně dokončených projektů a spokojených klientů.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature scroll-animate">
+                            <i class="fas fa-boxes feature__icon"></i>
+                            <div>
+                                <h4>Materiál v ceně</h4>
+                                <p>Dodáváme kvalitní materiály přímo od výrobců za výhodné ceny.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section id="references" class="references">
+        <div class="container">
+            <div class="section-header scroll-animate">
+                <h2 class="section-title">Reference</h2>
+                <p class="section-subtitle">Podívejte se na naše dokončené projekty a hodnocení klientů</p>
+            </div>
+            
+            <!-- Ukázky realizací -->
+            <div class="references__section">
+                <h3 class="references__subtitle scroll-animate">Ukázky realizací</h3>
+                <div class="projects__grid scroll-animate">
+                    <div class="project-card">
+                        <div class="project-card__slider" data-project="0">
+                            <div class="before-after-slider">
+                                <div class="image-before" style="background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gemini_images/21b9ab50-6889-41ad-9ba9-6fcdcc21e446.png')">
+                                    <div class="image-label">Před</div>
+                                </div>
+                                <div class="image-after" style="background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gemini_images/21b9ab50-6889-41ad-9ba9-6fcdcc21e446.png')">
+                                    <div class="image-label">Po</div>
+                                </div>
+                                <div class="slider-handle">
+                                    <div class="slider-line"></div>
+                                    <div class="slider-button">
+                                        <i class="fas fa-arrows-alt-h"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h4>Rodinný dům Litoměřice</h4>
+                            <p>EPS 16 cm • Úspora 46 % • 2025</p>
+                            <span class="project-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Litoměřice
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card__slider" data-project="1">
+                            <div class="before-after-slider">
+                                <div class="image-before" style="background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gemini_images/21b9ab50-6889-41ad-9ba9-6fcdcc21e446.png')">
+                                    <div class="image-label">Před</div>
+                                </div>
+                                <div class="image-after" style="background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gemini_images/21b9ab50-6889-41ad-9ba9-6fcdcc21e446.png')">
+                                    <div class="image-label">Po</div>
+                                </div>
+                                <div class="slider-handle">
+                                    <div class="slider-line"></div>
+                                    <div class="slider-button">
+                                        <i class="fas fa-arrows-alt-h"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h4>Bytový dům Roudnice n. L.</h4>
+                            <p>Lifebrick fasáda • 2024</p>
+                            <span class="project-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Roudnice nad Labem
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card__slider" data-project="2">
+                            <div class="before-after-slider">
+                                <div class="image-before" style="background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gemini_images/21b9ab50-6889-41ad-9ba9-6fcdcc21e446.png')">
+                                    <div class="image-label">Před</div>
+                                </div>
+                                <div class="image-after" style="background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gemini_images/21b9ab50-6889-41ad-9ba9-6fcdcc21e446.png')">
+                                    <div class="image-label">Po</div>
+                                </div>
+                                <div class="slider-handle">
+                                    <div class="slider-line"></div>
+                                    <div class="slider-button">
+                                        <i class="fas fa-arrows-alt-h"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h4>Administrativní budova Ústí n. L.</h4>
+                            <p>Nova Brick • 2025</p>
+                            <span class="project-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Ústí nad Labem
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hodnocení klientů -->
+            <div class="references__section">
+                <h3 class="references__subtitle scroll-animate">Hodnocení klientů</h3>
+                <div class="testimonials scroll-animate">
+                    <div class="swiper testimonials-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-photo">
+                                        <img src="https://placehold.co/80x80" alt="Jan Novák">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-quote">"Se zateplením od GAKEB jsme ušetřili polovinu nákladů na topení."</p>
+                                        <div class="testimonial-author">
+                                            <strong>Jan Novák</strong>
+                                            <span>Litoměřice</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-photo">
+                                        <img src="https://placehold.co/80x80" alt="Petra Dvořáková">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-quote">"Lifebrick fasáda vypadá skvěle a dům už netrpí vlhkostí."</p>
+                                        <div class="testimonial-author">
+                                            <strong>Petra Dvořáková</strong>
+                                            <span>Roudnice n. L.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-photo">
+                                        <img src="https://placehold.co/80x80" alt="Ing. Pavel Svoboda">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-quote">"Profesionální přístup a precizní práce, doporučuji."</p>
+                                        <div class="testimonial-author">
+                                            <strong>Ing. Pavel Svoboda</strong>
+                                            <span>Ústí n. L.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header scroll-animate">
+                <h2 class="section-title">Často kladené dotazy</h2>
+                <p class="section-subtitle">Odpovědi na nejčastější dotazy našich klientů</p>
+            </div>
+            
+            <div class="faq__accordion scroll-animate">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-0">
+                        <span>Jak dlouho trvá zateplení rodinného domu?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-0">
+                        <div class="faq-content">
+                            <p>Průměrná doba realizace je 2–3 týdny v závislosti na velikosti a typu fasády.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+                        <span>Vyřizujete kompletně dotace?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-1">
+                        <div class="faq-content">
+                            <p>Ano, zajistíme vyřízení administrativy a komunikaci s úřady zdarma.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+                        <span>Jaké materiály používáte?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-2">
+                        <div class="faq-content">
+                            <p>Používáme certifikované systémy EPS, minerální vatu a provětrávané fasády Lifebrick/Nova Brick.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+                        <span>Jsme z CHKO, můžete u nás pracovat?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-3">
+                        <div class="faq-content">
+                            <p>Ano, máme zkušenosti s prací v CHKO a plně respektujeme požadavky památkářů.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subsidies Section -->
+    <section id="subsidies" class="subsidies">
+        <div class="container">
+            <div class="subsidies__content">
+                <div class="subsidies__text scroll-animate">
+                    <h2 class="subsidies__title">Vyřízíme vám dotace na zelenou</h2>
+                    <p class="subsidies__description">
+                        Pomůžeme vám získat dotaci až 950 000 Kč na zateplení a energetické úspory. Vyřídíme kompletně zdarma.
+                    </p>
+                    
+                    <div class="subsidies__programs">
+                        <h3>Dostupné programy:</h3>
+                        <ul>
+                            <li>Nová zelená úsporám Standard</li>
+                            <li>Nová zelená úsporám Light</li>
+                            <li>Oprav dům po babičce</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="subsidies__highlight">
+                        <i class="fas fa-euro-sign"></i>
+                        <span>Dotace až 950 000 Kč</span>
+                    </div>
+                </div>
+                
+                <div class="subsidies__form scroll-animate">
+                    <h3>Máte zájem o dotace?</h3>
+                    <form class="form" id="subsidyForm">
+                        <div class="form-group">
+                            <label class="form-label">Jméno a příjmení</label>
+                            <input type="text" class="form-control" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Telefon</label>
+                            <input type="tel" class="form-control" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Typ nemovitosti</label>
+                            <select class="form-control" name="property_type" required>
+                                <option value="">Vyberte typ</option>
+                                <option value="family_house">Rodinný dům</option>
+                                <option value="apartment">Byt</option>
+                                <option value="apartment_building">Bytový dům</option>
+                                <option value="commercial">Komerční objekt</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Zpráva</label>
+                            <textarea class="form-control" name="message" rows="3" placeholder="Napište nám o vašem projektu..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width ripple-effect">
+                            Nezávazně se informovat
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__content">
+                <div class="contact__info scroll-animate">
+                    <h2 class="contact__title">Kontaktujte nás</h2>
+                    <p class="contact__description">
+                        Máte dotazy nebo chcete nezávaznou poptávku? Rádi vám odpovíme a připravíme cenovou nabídku na míru.
+                    </p>
+                    
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <i class="fas fa-building"></i>
+                            <div>
+                                <strong>GAKEB s.r.o.</strong>
+                                <p>IČO: 02017261<br>DIČ: CZ02017261</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Telefon</strong>
+                                <p><a href="tel:+420775071420">+420 775 071 420</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:gakeb@seznam.cz">gakeb@seznam.cz</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Adresa</strong>
+                                <p>Miřejovice 90<br>412 01</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__form scroll-animate">
+                    <form class="form" id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label">Jméno a příjmení *</label>
+                            <input type="text" class="form-control" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Telefon *</label>
+                            <input type="tel" class="form-control" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Email *</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Služba</label>
+                            <select class="form-control" name="service">
+                                <option value="">Vyberte službu</option>
+                                <option value="insulation">Zateplování budov</option>
+                                <option value="facade">Provětrávané fasády</option>
+                                <option value="windowsills">Montáž parapetů</option>
+                                <option value="turnkey">Stavby na klíč</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Zpráva *</label>
+                            <textarea class="form-control" name="message" rows="4" placeholder="Popište nám váš projekt..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width ripple-effect">
+                            Odeslat poptávku
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <i class="fas fa-home"></i>
+                        <span>GAKEB s.r.o.</span>
+                    </div>
+                    <p class="footer__slogan">Oprav dům po babičce</p>
+                </div>
+                
+                <div class="footer__links">
+                    <h4>Rychlé odkazy</h4>
+                    <ul>
+                        <li><a href="#services">Zateplování budov</a></li>
+                        <li><a href="#services">Provětrávané fasády</a></li>
+                        <li><a href="#services">Montáž parapetů</a></li>
+                        <li><a href="#services">Stavby na klíč</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__contact">
+                    <h4>Kontakt</h4>
+                    <p><a href="tel:+420775071420">+420 775 071 420</a></p>
+                    <p><a href="mailto:gakeb@seznam.cz">gakeb@seznam.cz</a></p>
+                    <p>Miřejovice 90, 412 01</p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 GAKEB s.r.o. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
